@@ -4,9 +4,9 @@ This project demonstrates how to scrape a website using the concurrent.futures l
 Results
 The following shows the results of scraping the website with and without concurrent.futures:
 
-Method	Time (seconds)
-Without concurrent.futures	10.0
-With concurrent.futures	5.0
+Method	Time
+Without concurrent.futures	1.34 (minutes)
+With concurrent.futures	15 (seconds)
 
 As you can see, using concurrent.futures can significantly improve the scraping speed.
 
